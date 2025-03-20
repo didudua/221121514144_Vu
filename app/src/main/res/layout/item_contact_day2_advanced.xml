@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.Day2_Listview.Advanced.AdvancedFragment">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/ivAvatar"
+            android:src="@drawable/avt_khi"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvName"
+            android:textSize="20sp"
+            android:text="Name"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/ivAvatar"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvPhone"
+            android:layout_below="@id/tvName"
+            android:layout_marginTop="5dp"
+            android:text="0123456789"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/ivAvatar"/>
+
+        <Button
+            android:id="@+id/btEdit2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="190dp"
+            android:layout_toRightOf="@id/ivAvatar"
+            android:text="sửa"
+            android:textSize="8sp"/>
+
+        <Button
+            android:id="@+id/btCall"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="250dp"
+            android:layout_toRightOf="@id/ivAvatar"
+            android:text="Gọi"
+            android:textSize="8sp" />
+    </RelativeLayout>
+
+</LinearLayout>
