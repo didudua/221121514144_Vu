@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "due.giuaky.Vu_221121514144"
+    namespace = "due.giuaky221121514144"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "due.giuaky.Vu_221121514144"
+        applicationId = "due.giuaky221121514144"
         minSdk = 26
         targetSdk = 35
         versionCode = 1
